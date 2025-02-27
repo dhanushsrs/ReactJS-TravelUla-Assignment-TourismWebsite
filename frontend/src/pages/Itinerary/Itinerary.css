@@ -1,0 +1,108 @@
+.costs-section {
+  margin-top: 40px;
+}
+
+.travel {
+  margin-top: 40px;
+}
+.costs-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.travel-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.costs-list {
+  font-size: 1.2rem;
+  color: #555;
+  list-style-type: none;
+  padding: 0;
+}
+
+.costs-list li {
+  margin-bottom: 10px;
+}
+
+.costs-list strong {
+  color: orangered;
+}
+
+.costs-list ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.costs-list ul li {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .costs-title {
+    font-size: 1.5rem;
+  }
+
+  .costs-list {
+    font-size: 1rem;
+  }
+
+  .costs-list li {
+    font-size: 1.1rem;
+  }
+}
+
+.itinerary-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.image-container {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.itinerary-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.overview-section {
+  margin-top: 30px;
+}
+
+.overview-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.overview-section p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .overview-title {
+    font-size: 1.5rem;
+  }
+}
+
+.book-now-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}

@@ -1,0 +1,63 @@
+.terms-container {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.terms-list,
+.payment-policy-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.terms-list li,
+.payment-policy-list li {
+  margin-bottom: 12px;
+}
+
+.terms-section {
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.terms-list li {
+  color: #532902;
+}
+
+.payment-policy-section {
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.payment-policy-list li {
+  color: #532902;
+}
+
+@media (max-width: 768px) {
+  .terms-container {
+    padding: 10px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .terms-list,
+  .payment-policy-list {
+    font-size: 16px;
+    padding-left: 15px;
+  }
+}
