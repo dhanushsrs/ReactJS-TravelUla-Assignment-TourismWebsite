@@ -34,8 +34,12 @@ h2 {
   color: white;
 }
 
-.form-group {
+.form-gp {
   text-align: left;
+}
+
+.form-label {
+  color: white;
 }
 
 .book-now-form input,

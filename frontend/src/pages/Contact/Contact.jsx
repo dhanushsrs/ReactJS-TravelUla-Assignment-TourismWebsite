@@ -17,6 +17,11 @@ const Contact = () => {
     });
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formData);
+  };
+
   return (
     <div className="contact-container">
       <h1 className="contact-title">Contact Us</h1>
@@ -47,7 +52,7 @@ const Contact = () => {
 
       <div className="contact-form">
         <h2>Send Us a Message</h2>
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Full Name</label>
             <input

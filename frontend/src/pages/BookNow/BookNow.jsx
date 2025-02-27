@@ -31,8 +31,10 @@ const BookNow = () => {
         <h2>Book Your Dream Holiday Today!</h2>
         <form onSubmit={handleSubmit} className="book-now-form">
           {/* Name Field */}
-          <div className="form-group">
-            <label htmlFor="name">Full Name*</label>
+          <div className="form-gp">
+            <label className="form-label" htmlFor="name">
+              Full Name*
+            </label>
             <input
               type="text"
               id="name"
@@ -45,8 +47,10 @@ const BookNow = () => {
           </div>
 
           {/* Email Field */}
-          <div className="form-group">
-            <label htmlFor="email">Email*</label>
+          <div className="form-gp">
+            <label className="form-label" htmlFor="email">
+              Email*
+            </label>
             <input
               type="email"
               id="email"
@@ -59,8 +63,10 @@ const BookNow = () => {
           </div>
 
           {/* Phone Number Field */}
-          <div className="form-group">
-            <label htmlFor="phone">Phone Number*</label>
+          <div className="form-gp">
+            <label className="form-label" htmlFor="phone">
+              Phone Number*
+            </label>
             <input
               type="tel"
               id="phone"
@@ -73,8 +79,10 @@ const BookNow = () => {
           </div>
 
           {/* Number of Adults Field */}
-          <div className="form-group">
-            <label htmlFor="adults">Number of Adults*</label>
+          <div className="form-gp">
+            <label className="form-label" htmlFor="adults">
+              Number of Adults*
+            </label>
             <input
               type="number"
               id="adults"
@@ -88,8 +96,10 @@ const BookNow = () => {
           </div>
 
           {/* Number of Children Field */}
-          <div className="form-group">
-            <label htmlFor="children">Number of Children</label>
+          <div className="form-gp">
+            <label className="form-label" htmlFor="children">
+              Number of Children
+            </label>
             <input
               type="number"
               id="children"
@@ -102,8 +112,10 @@ const BookNow = () => {
           </div>
 
           {/* Travel Date Field */}
-          <div className="form-group">
-            <label htmlFor="travel_date">Travel Date*</label>
+          <div className="form-gp">
+            <label className="form-label" htmlFor="travel_date">
+              Travel Date*
+            </label>
             <input
               type="date"
               id="travel_date"
@@ -116,8 +128,10 @@ const BookNow = () => {
           </div>
 
           {/* Additional Information (Textarea) */}
-          <div className="form-group">
-            <label htmlFor="additional_info">Additional Information</label>
+          <div className="form-gp">
+            <label className="form-label" htmlFor="additional_info">
+              Additional Information
+            </label>
             <textarea
               id="additional_info"
               name="additional_info"
