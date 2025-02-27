@@ -7,20 +7,20 @@ Travel Ula is a modern, responsive website built using React.js and Vite for fas
 The goal of the website is to make it easy for users to explore destinations and book trips with simple navigation and a seamless experience.
 
 ### Technologies Used
-  ## React.js: Frontend JavaScript library for building user interfaces.
-  ## Vite: Build tool that provides fast bundling and development.
-  ## CSS: Custom styles for a traditional, clean layout.
-  ## React Router: For handling client-side routing in the app.
-  ## Font Awesome: For icons in various sections.
-  ## Vercel: For deploying the website.
+  * React.js: Frontend JavaScript library for building user interfaces.
+  * Vite: Build tool that provides fast bundling and development.
+  * CSS: Custom styles for a traditional, clean layout.
+  * React Router: For handling client-side routing in the app.
+  * Font Awesome: For icons in various sections.
+  * Vercel: For deploying the website.
 
 ### Features
-  ## Responsive Design: The website is mobile-friendly and adapts to various screen sizes.
-  ## Itinerary Pages: Explore detailed itineraries, with options to view specific days and activities.
-  ## Booking Form: Easy-to-use booking form with options to select the number of adults, children, and travel dates.
-  ## Contact Form: For users to get in touch for more information or inquiries.
-  ## Dynamic Routes: Pages for Home, About Us, Kenya Trip, and Contact with smooth transitions.
-  ## Icons: Font Awesome icons to make the pages visually appealing.
+  * Responsive Design: The website is mobile-friendly and adapts to various screen sizes.
+  * Itinerary Pages: Explore detailed itineraries, with options to view specific days and activities.
+  * Booking Form: Easy-to-use booking form with options to select the number of adults, children, and travel dates.
+  * Contact Form: For users to get in touch for more information or inquiries.
+  * Dynamic Routes: Pages for Home, About Us, Kenya Trip, and Contact with smooth transitions.
+  * Icons: Font Awesome icons to make the pages visually appealing.
 
 ### Installation
 To get started with the project locally, follow these steps:
@@ -38,11 +38,11 @@ To get started with the project locally, follow these steps:
      This will open the app in your browser at http://localhost:5173.
 
 ### Usage
-  ## Home Page: View the introduction and current travel offerings.
-  ## Kenya Trip: Explore specific itineraries for Kenya, such as the Big Cats Week at Maasai Mara.
-  ## About Us: Learn more about Travel Ula and its operations.
-  ## Contact: Reach out for inquiries or additional details regarding the trips.
-  ## Booking: Book your trips through a clean and simple form with necessary inputs like the number of people, travel dates, and personal information.
+  * Home Page: View the introduction and current travel offerings.
+  * Kenya Trip: Explore specific itineraries for Kenya, such as the Big Cats Week at Maasai Mara.
+  * About Us: Learn more about Travel Ula and its operations.
+  * Contact: Reach out for inquiries or additional details regarding the trips.
+  * Booking: Book your trips through a clean and simple form with necessary inputs like the number of people, travel dates, and personal information.
 
 ### Deployment
     The website is deployed on Vercel. Once pushed to the Git repository, Vercel will automatically deploy the project. If you need to redeploy, follow these steps:
